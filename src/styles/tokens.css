@@ -1,6 +1,8 @@
 :root{
     --color-beige: rgb(243, 241, 216);
     --color-black: rgb(0, 0, 0);
+    --color-lightblack: rgb(59, 59, 59);
     --color-grey: rgb(143, 142, 142);
+    --color-lightgrey: rgb(189, 188, 188);
     --color-white: rgb(255, 255, 255);
 }
