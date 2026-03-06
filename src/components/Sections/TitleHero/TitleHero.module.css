@@ -1,11 +1,11 @@
 .heroText h1 {
-  font-family: "HighriseDemo Bold Placeholder", sans-serif;
+  font-family: "HighriseDemo Bold", "HighriseDemo Condensed", "HighriseDemo", sans-serif;
   /* font-size: clamp(72px, 10vw, 200px); */
   font-size: 100px;
-  font-style: bold;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.5em;
-  letter-spacing: -8px;
+  letter-spacing: 0em;
   text-transform: uppercase;
   white-space: nowrap;
   color: #000;

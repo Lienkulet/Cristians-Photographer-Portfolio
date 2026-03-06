@@ -97,8 +97,10 @@
   letter-spacing: 0.03em;
   line-height: 19.2px;
   cursor: pointer;
-  transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
   padding: 12px 18px;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: background-color 250ms ease, color 250ms ease;
+  transition-delay: 200ms;
 }
 
 .light .ctaBtn {
@@ -108,17 +110,13 @@
 }
 
 .light .ctaBtn:hover {
-  background-color: transparent;
-  color: #000;
+  color: rgb(130, 130, 130);
+  background-color: var(--color-lighterblack);
 }
 
 .black .ctaBtn:hover {
   background-color: #f8f8f8;
   color: #000;
-}
-
-.ctaBtn:hover {
-  transform: translateY(-2px);
 }
 
 @media (max-width: 1080px) {
