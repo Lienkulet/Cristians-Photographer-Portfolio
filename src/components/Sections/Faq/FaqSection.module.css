@@ -1,0 +1,135 @@
+.section {
+  width: 100%;
+  max-width: 1280px;
+  justify-self: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
+}
+
+.title {
+  font-family: "HighriseDemo Bold", "HighriseDemo Condensed", "HighriseDemo", sans-serif;
+  font-size: 150px;
+  line-height: 180px;
+  font-weight: 400;
+  color: var(--color-black);
+  letter-spacing: 1px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.22);
+  padding: 18px 0;
+}
+
+.questionBtn {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  cursor: pointer;
+  text-align: left;
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 28px;
+  transition: transform 0.24s ease;
+}
+
+.icon span {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 999px;
+  background-color: currentColor;
+  transition: transform 0.24s ease, opacity 0.24s ease;
+}
+
+.icon span:last-child {
+  transform: rotate(90deg);
+}
+
+.answerWrap {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.answerWrap p {
+  overflow: hidden;
+  margin-top: 0;
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: var(--color-lightergrey);
+}
+
+.open .icon {
+  transform: rotate(45deg);
+}
+
+.open .answerWrap {
+  grid-template-rows: 1fr;
+}
+
+.open .answerWrap p {
+  margin-top: 14px;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 84px;
+    line-height: 0.9;
+  }
+
+  .item {
+    padding: 14px 0;
+  }
+
+  .questionBtn {
+    font-size: 16px;
+    line-height: 22px;
+    gap: 14px;
+  }
+
+  .answerWrap p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    flex-basis: 24px;
+  }
+}

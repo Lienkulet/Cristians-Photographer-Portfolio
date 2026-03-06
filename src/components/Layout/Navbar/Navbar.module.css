@@ -237,6 +237,9 @@
     }
 
     .mobileMenuBtn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         position: relative;
         width: 42px;
         height: 42px;
@@ -270,8 +273,11 @@
     }
 
     .mobileMenuIcon {
-        top: 50%;
-        transform: translate(-50%, -50%);
+        position: relative;
+        display: inline-block;
+        top: auto;
+        left: auto;
+        transform: none;
     }
 
     .mobileMenuIcon::before {
