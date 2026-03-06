@@ -118,6 +118,10 @@
         font-size: clamp(56px, 14vw, 88px);
         line-height: 0.9;
         text-align: center;
+        justify-self: center;
+        align-self: center;
+        justify-items: center;
+        align-items: center;
         white-space: normal;
     }
 
@@ -128,7 +132,7 @@
 
     .links {
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: center;
         gap: 10px 14px;
     }
 

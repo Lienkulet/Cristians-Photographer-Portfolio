@@ -309,15 +309,19 @@
         box-shadow: 0 2px 0 rgba(0, 0, 0, 0.18);
         opacity: 0;
         visibility: hidden;
-        /* transform: translateY(-8px); */
-        transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+        pointer-events: none;
+        transform: translateY(-10px) scale(0.98);
+        transform-origin: top right;
+        transition: opacity 0.25s ease, transform 0.3s ease, visibility 0s linear 0.3s;
         z-index: 1010;
     }
 
     .mobileMenuOpen {
         opacity: 1;
         visibility: visible;
-        transform: translateY(0);
+        pointer-events: auto;
+        transform: translateY(0) scale(1);
+        transition: opacity 0.25s ease, transform 0.3s ease, visibility 0s;
     }
 
     .mobilePageLinks {
@@ -372,5 +376,56 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         padding: 12px 14px;
+    }
+
+    .mobilePageLinks a,
+    .mobileLangRow button,
+    .mobileCtaBtn {
+        opacity: 0;
+        transform: translateY(-6px);
+        transition: opacity 0.25s ease, transform 0.3s ease;
+    }
+
+    .mobileMenuOpen .mobilePageLinks a,
+    .mobileMenuOpen .mobileLangRow button,
+    .mobileMenuOpen .mobileCtaBtn {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .mobileMenuOpen .mobilePageLinks a:nth-child(1) {
+        transition-delay: 40ms;
+    }
+
+    .mobileMenuOpen .mobilePageLinks a:nth-child(2) {
+        transition-delay: 80ms;
+    }
+
+    .mobileMenuOpen .mobilePageLinks a:nth-child(3) {
+        transition-delay: 120ms;
+    }
+
+    .mobileMenuOpen .mobilePageLinks a:nth-child(4) {
+        transition-delay: 160ms;
+    }
+
+    .mobileMenuOpen .mobilePageLinks a:nth-child(5) {
+        transition-delay: 200ms;
+    }
+
+    .mobileMenuOpen .mobileLangRow button:nth-child(1) {
+        transition-delay: 220ms;
+    }
+
+    .mobileMenuOpen .mobileLangRow button:nth-child(2) {
+        transition-delay: 250ms;
+    }
+
+    .mobileMenuOpen .mobileLangRow button:nth-child(3) {
+        transition-delay: 280ms;
+    }
+
+    .mobileMenuOpen .mobileCtaBtn {
+        transition-delay: 320ms;
     }
 }
