@@ -17,6 +17,9 @@ const Gallery = () => {
                         work.'
                     />
                 </div>
+            </Container>
+            <div className={styles.galleryWrapper}>
+
                 <ImageBlock
                     imgUlrs={
                         [
@@ -28,7 +31,7 @@ const Gallery = () => {
                     }
                     left={true}
                 />
-                 <ImageBlock
+                <ImageBlock
                     imgUlrs={
                         [
                             '/home/gallery/gallery5.png',
@@ -39,7 +42,7 @@ const Gallery = () => {
                     }
                     left={true}
                 />
-                 <ImageBlock
+                <ImageBlock
                     imgUlrs={
                         [
                             '/home/gallery/gallery9.png',
@@ -50,7 +53,8 @@ const Gallery = () => {
                     }
                     left={false}
                 />
-            </Container>
+            </div>
+
         </section>
     )
 }

@@ -9,11 +9,11 @@
 .logo{
   font-size: 34px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-family: HighriseDemo, HighriseDemo Placeholder, sans-serif;
   color: var(--color-black);
   text-align: start;
-  text-indent: 0px;
+  /* text-indent: 0em; */
   line-height: 40.8px;
   text-transform: none;
   text-decoration: none;
