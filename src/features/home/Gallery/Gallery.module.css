@@ -17,3 +17,10 @@
     margin-top: -96px;
     margin-bottom: 96px;
 }
+
+@media (max-width: 768px) {
+    .galleryWrapper{
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+}

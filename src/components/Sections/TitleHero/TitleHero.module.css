@@ -26,3 +26,31 @@
     margin-top: 30px;
     /* max-width: 1217px; */
 }
+
+@media (max-width: 1024px) {
+  .heroText h1 {
+    font-size: clamp(64px, 12vw, 92px);
+    line-height: 1;
+    white-space: normal;
+    letter-spacing: -1px;
+  }
+
+  .heroText h3 {
+    font-size: 20px;
+    line-height: 1.45;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroText h1 {
+    font-size: clamp(44px, 12vw, 64px);
+    line-height: 0.95;
+    letter-spacing: -0.5px;
+  }
+
+  .heroText h3 {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 16px;
+  }
+}

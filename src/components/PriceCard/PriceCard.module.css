@@ -122,16 +122,17 @@
 @media (max-width: 1080px) {
   .card {
     min-height: auto;
+    max-height: none;
     padding: 30px 24px;
   }
 
   .check {
-    width: 26px;
-    height: 26px;
-    flex-basis: 26px;
+    width: 20px;
+    height: 20px;
+    flex-basis: 20px;
   }
 
   .ctaBtn {
-    height: 60px;
+    height: auto;
   }
 }

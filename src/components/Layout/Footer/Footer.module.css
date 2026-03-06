@@ -92,3 +92,48 @@
     gap: 30px;
     margin-top: 50px;
 }
+
+@media (max-width: 1024px) {
+    .footer {
+        padding-top: 64px;
+    }
+
+    .footerHead h1 {
+        font-size: clamp(92px, 16vw, 160px);
+        line-height: 0.88;
+    }
+
+    .links a {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding-top: 40px;
+    }
+
+    .footerHead h1 {
+        font-size: clamp(56px, 14vw, 88px);
+        line-height: 0.9;
+        text-align: center;
+        white-space: normal;
+    }
+
+    .linksWrapper {
+        margin-top: 24px;
+        gap: 18px;
+    }
+
+    .links {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 10px 14px;
+    }
+
+    .links a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

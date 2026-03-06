@@ -14,3 +14,10 @@
     gap: 1.5rem;
     margin-top: 6rem;
 }
+
+@media (max-width: 768px) {
+    .servicesWrapper{
+        grid-template-columns: 1fr;
+        margin-top: 2rem;
+    }
+}

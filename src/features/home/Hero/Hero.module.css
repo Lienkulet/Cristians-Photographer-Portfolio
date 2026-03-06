@@ -31,3 +31,38 @@
     color: var(--color-black);
     text-align: center;
 }
+
+@media (max-width: 1024px) {
+    .hero {
+        gap: 36px;
+    }
+
+    .hero h1 {
+        font-size: clamp(80px, 15vw, 160px);
+        line-height: 0.8;
+        white-space: normal;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        gap: 24px;
+    }
+
+    .hero h1 {
+        font-size: clamp(52px, 16vw, 92px);
+        line-height: 0.86;
+        letter-spacing: 1px;
+    }
+
+    .hero p {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+}
