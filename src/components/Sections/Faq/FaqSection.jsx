@@ -11,7 +11,7 @@ const faqItems = [
       "We offer a wide range of photography services including wedding photography, family portraits, product photography, event photography, and custom sessions tailored to your specific needs.",
   },
   {
-    question: "How do I book a photography session with Kerataon Studio?",
+    question: "How do I book a photography session with Cristian Studio?",
     answer:
       "Reach out through our contact page or social channels, then we confirm availability, discuss your vision, and finalize the booking details together.",
   },

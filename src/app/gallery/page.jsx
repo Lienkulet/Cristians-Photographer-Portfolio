@@ -8,7 +8,7 @@ const page = () => {
     <main>
       <PagesHero
         title='OUR GALLERY'
-        subtitle='Welcome to our gallery, where moments come to life through the lens of Kerataon Studio. Browse through a curated selection of our finest photography work, showcasing the beauty, emotion, and artistry that define our craft.'
+        subtitle='Welcome to our gallery, where moments come to life through the lens of Cristian Studio. Browse through a curated selection of our finest photography work, showcasing the beauty, emotion, and artistry that define our craft.'
         imgUrl='/gallery/bell.avif'
       />
       <div className={styles.galleryWrapper}>
