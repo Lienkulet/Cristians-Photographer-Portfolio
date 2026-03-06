@@ -1,0 +1,28 @@
+.heroText h1 {
+  font-family: "HighriseDemo Bold Placeholder", sans-serif;
+  /* font-size: clamp(72px, 10vw, 200px); */
+  font-size: 100px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 1.5em;
+  /* letter-spacing: -0.015em; */
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #000;
+  font-stretch: condensed;
+}
+  
+.heroText h3{
+    font-size: 24px;
+    font-family: Inter, "Inter Placeholder", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-indent: 0px;
+    line-height: 1.5em;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: var(--color-black);
+    text-align: start;
+    margin-top: 30px;
+    /* max-width: 1217px; */
+}
