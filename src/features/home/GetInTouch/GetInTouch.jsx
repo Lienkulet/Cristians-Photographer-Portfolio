@@ -8,7 +8,7 @@ const GetInTouch = () => {
     <section className={styles.getInTouch}>
       <Container>
         <div className={styles.row}>
-          <Image src={'/home/getintouch.avif'} alt='Get In Touch Image' width={380} height={407} />
+          <Image src={'/home/getintouch.avif'} alt='Get In Touch Image' width={380} height={407} style={{ borderRadius: '12px' }} />
           <div className={styles.leftBlock}>
             <h2>We are a dedicated photography <br /> studio committed to capturing </h2>
             <h2>beautiful moments in your life with <br /> sincerity and authenticity. </h2>

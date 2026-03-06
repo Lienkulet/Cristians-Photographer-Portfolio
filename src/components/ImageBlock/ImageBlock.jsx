@@ -13,12 +13,12 @@ const ImageBlock = ({
   return (
     <div className={styles.imgWrapper}>
       <div className={styles.block}>
-        <Image src={images[0]} alt="Gallery image 1" width={693} height={heights[0]} />
-        <Image src={images[1]} alt="Gallery image 2" width={693} height={heights[1]} />
+        <Image src={images[0]} alt="Gallery image 1" width={693} height={heights[0]} style={{borderRadius: '12px'}} />
+        <Image src={images[1]} alt="Gallery image 2" width={693} height={heights[1]} style={{borderRadius: '12px'}} />
       </div>
       <div className={styles.block}>
-        <Image src={images[2]} alt="Gallery image 3" width={693} height={heights[2]} />
-        <Image src={images[3]} alt="Gallery image 4" width={693} height={heights[3]} />
+        <Image src={images[2]} alt="Gallery image 3" width={693} height={heights[2]} style={{borderRadius: '12px'}} />
+        <Image src={images[3]} alt="Gallery image 4" width={693} height={heights[3]} style={{borderRadius: '12px'}} />
       </div>
     </div>
   )

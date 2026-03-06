@@ -12,9 +12,9 @@ const page = () => {
                 subtitle='At Cristian Studio, we offer flexible price plans to accommodate your photography needs. Choose from our range of packages or customize a plan tailored to your specific requirements. Below are our standard price plans:'
                 imgUrl=''
             />
-            <div style={{maxWidth: '1216px', justifySelf: 'center'}}>
+            <section style={{ maxWidth: '1216px', justifySelf: 'center' }}>
                 <PriceCardGrid />
-            </div>
+            </section>
             <FaqSection />
         </main>
     )
