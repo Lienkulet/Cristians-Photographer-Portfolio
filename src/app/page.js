@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Hero from "@/features/home/Hero/Hero";
 import GetInTouch from "@/features/home/GetInTouch/GetInTouch";
 import Services from "@/features/home/Services/Services";
+import Gallery from "@/features/home/Gallery/Gallery";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
     <Hero />
     <GetInTouch />
     <Services />
+    <Gallery />
    </main>
   );
 }
