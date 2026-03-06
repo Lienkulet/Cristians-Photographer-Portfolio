@@ -64,7 +64,7 @@
 
 .btn:hover,
 .btn:focus-visible {
-    color: rgb(130, 130, 130);
+    color: var(--color-lightergrey);
     background-color: var(--color-lighterblack);
     /* transform: translateY(-2px); */
     /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18); */
@@ -152,7 +152,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 2.12rem;
 }
 
 .links a {
@@ -163,7 +163,8 @@
     text-indent: 0px;
     line-height: 19.2px;
     text-decoration: none;
-    color: var(--color-lightblack);
+    color: rgb(61,61,61);
+    /* color: var(--color-lightblack); */
     cursor: pointer;
 }
 

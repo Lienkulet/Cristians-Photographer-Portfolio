@@ -1,0 +1,93 @@
+.page {
+  min-height: calc(100vh - 96px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 20px 72px;
+}
+
+.card {
+  width: min(1100px, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card h1 {
+  font-family: "HighriseDemo Bold", "HighriseDemo Condensed", "HighriseDemo", sans-serif;
+  font-size: 250px;
+  line-height: 250px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: var(--color-black);
+}
+
+.card h2 {
+  margin-top: 10px;
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-size: 48px;
+  line-height: 57.6px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+.card p {
+  margin-top: 40px;
+  max-width: 850px;
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+
+.cta {
+  margin-top: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border: 1px solid var(--color-black);
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 12px 18px;
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+.cta:hover,
+.cta:focus-visible {
+  background-color: var(--color-lighterblack);
+  color: var(--color-lightergrey);
+  /* transform: translateY(-2px); */
+}
+
+@media (max-width: 768px) {
+  .page {
+    min-height: calc(100vh - 132px);
+    padding: 20px 16px 44px;
+  }
+
+  .card h2 {
+    margin-top: 24px;
+  }
+
+  .card p {
+    margin-top: 20px;
+    line-height: 1.35;
+  }
+
+  .cta {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 320px;
+  }
+}
