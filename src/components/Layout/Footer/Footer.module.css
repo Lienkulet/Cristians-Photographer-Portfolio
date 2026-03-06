@@ -114,14 +114,16 @@
         padding-top: 40px;
     }
 
+    .footerHead {
+        justify-content: center;
+    }
+
     .footerHead h1 {
+        width: 100%;
+        margin: 0 auto;
         font-size: clamp(56px, 14vw, 88px);
         line-height: 0.9;
         text-align: center;
-        justify-self: center;
-        align-self: center;
-        justify-items: center;
-        align-items: center;
         white-space: normal;
     }
 
