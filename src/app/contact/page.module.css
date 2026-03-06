@@ -1,0 +1,19 @@
+.contactSection {
+  width: 100%;
+}
+
+.contactLayout {
+  display: grid;
+  
+  grid-template-columns: minmax(320px, 440px) minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .contactLayout {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+}

@@ -1,0 +1,90 @@
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 16px;
+  padding: 20px 20px 22px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.34) 0%, rgba(255, 255, 255, 0.18) 100%);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.iconBox {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.45);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-black);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.iconBox svg {
+  width: 24px;
+  height: 24px;
+}
+
+.infoCard h2 {
+  margin-top: 16px;
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+.infoCard p {
+  margin-top: 8px;
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
+  font-weight: 500;
+  color: var(--color-lightergrey);
+}
+
+.infoCard a,
+.infoCard address {
+  margin-top: 12px;
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-size: 18px;
+  line-height: 1.35;
+  font-weight: 600;
+  color: var(--color-black);
+  font-style: normal;
+  text-decoration: none;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+.infoCard:hover,
+.infoCard:focus-within {
+  border-color: rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 24px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1024px) {
+  .infoCard {
+    border-radius: 14px;
+    padding: 18px;
+  }
+
+  .infoCard h2 {
+    font-size: 21px;
+  }
+
+  .infoCard p {
+    font-size: 15px;
+  }
+
+  .infoCard a,
+  .infoCard address {
+    font-size: 17px;
+  }
+}
