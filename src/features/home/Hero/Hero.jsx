@@ -14,7 +14,7 @@ const Hero = () => {
             that every moment has a unique story, and we are committed to capturing that story through our
             lens.
           </p>
-          <Image src='/hero.png' alt='Hero Image' width={1400} height={990} />
+          <Image src='/home/hero.png' alt='Hero Image' width={1400} height={990} />
         </div>
 
       </Container>
